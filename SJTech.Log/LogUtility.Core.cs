@@ -5,7 +5,6 @@ namespace SJTech.Log
     public static partial class LogUtility
     {
         public static object LogLock = new object();
-
         public static ILog WebLogger => GetLogger("WebLoggerRepository");
         public static ILog EmailLogger => GetLogger("EmailLoggerRepository");
         public static ILog SystemLogger => GetLogger("SystemLoggerRepository");
@@ -14,49 +13,33 @@ namespace SJTech.Log
         public static ILog Menu => GetLogger("MenuRepository");
         public static ILog QiNiu => GetLogger("QiNiuService");
         public static ILog App => GetLogger("AppService");
-
         public static ILog AccountPayLog => GetLogger("AccountPayLog");
         public static ILog Pay => GetLogger("Pay");
-
         public static ILog ApmEndingData => GetLogger("ApmEndingData");
         public static ILog ApmEndingDataStat => GetLogger("ApmEndingDataStat");
-
         public static ILog DeveloperApi => GetLogger("DeveloperApiService");
         public static ILog Developer => GetLogger("DeveloperService");
-
         public static log4net.ILog P2pApi => GetLogger("P2pApi");
-
-
         public static ILog Cache => GetLogger("CacheRepository");
         public static ILog SmsLogger => GetLogger("SmsLoggerRepository");
         public static ILog Account => GetLogger("AccountRepository");
         public static ILog OperationQueue => GetLogger("OperationQueueRepository");
-
         public static ILog WeixinOAuth => GetLogger("WeixinOAuth");
         public static ILog OpenOAuth => GetLogger("OpenOAuth");
-
-
         public static ILog AdminUserInfo => GetLogger("AdminUserInfoRepository");
-
         public static ILog Weixin => GetLogger("Weixin");
         public static ILog Neural => GetLogger("NeuralRepository");
         public static ILog NeuralApp => GetLogger("NeuralAppRepository");
-
         public static ILog Comment => GetLogger("CommentRepository");
-
         public static ILog Report => GetLogger("ReportRepository");
-
         public static ILog TrackPageLoadPerformance => GetLogger("TrackPageLoadPerformance");
         public static ILog Reply => GetLogger("ReplyRepository");
-
-
         public static int Int
         {
             get;
             set;
         }
         //新建的领域可以在这里继续添加
-
         public static ILog GetLogger(string name)
         {
             lock (LogLock)
