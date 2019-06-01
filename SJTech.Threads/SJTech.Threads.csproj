@@ -5,9 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\senparc\scfdemo\src\Senparc.Scf.Core\SJTech.Core.csproj" />
-    <ProjectReference Include="..\..\..\senparc\scfdemo\src\Senparc.Scf.Log\SJTech.Log.csproj" />
-    <ProjectReference Include="..\..\..\senparc\scfdemo\src\Senparc.Scf.Service\SJTech.Service.csproj" />
+    <ProjectReference Include="..\SJTech.Log\SJTech.Log.csproj" />
+    <ProjectReference Include="..\SJTech.Web.Core\SJTech.Core.csproj" />
+    <ProjectReference Include="..\SJTech.Web.Service\SJTech.Service.csproj" />
   </ItemGroup>
 
 </Project>

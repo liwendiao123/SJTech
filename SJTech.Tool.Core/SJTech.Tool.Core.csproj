@@ -26,13 +26,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Senparc.Scf.Core\SJTech.Core.csproj" />
-    <ProjectReference Include="..\Senparc.Scf.Log\SJTech.Log.csproj" />
-    <ProjectReference Include="..\Senparc.Scf.Utility\SJTech.Utility.csproj" />
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.0-preview1-final" />
   </ItemGroup>
 
   <ItemGroup>
-    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.0-preview1-final" />
+    <ProjectReference Include="..\SJTech.Log\SJTech.Log.csproj" />
+    <ProjectReference Include="..\SJTech.Web.Core\SJTech.Core.csproj" />
+    <ProjectReference Include="..\SJTech.Web.Utility\SJTech.Utility.csproj" />
   </ItemGroup>
 
 

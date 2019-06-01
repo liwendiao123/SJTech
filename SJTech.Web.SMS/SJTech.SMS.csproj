@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Senparc.Scf.Core\SJTech.Core.csproj" />
-    <ProjectReference Include="..\Senparc.Scf.Log\SJTech.Log.csproj" />
+    <ProjectReference Include="..\SJTech.Log\SJTech.Log.csproj" />
+    <ProjectReference Include="..\SJTech.Web.Core\SJTech.Core.csproj" />
   </ItemGroup>
 
 </Project>

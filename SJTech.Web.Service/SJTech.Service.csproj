@@ -5,12 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Senparc.Core\SJTech.Tool.Core.csproj" />
-    <ProjectReference Include="..\Senparc.Scf.Core\SJTech.Core.csproj" />
-    <ProjectReference Include="..\Senparc.Scf.Log\SJTech.Log.csproj" />
-    <ProjectReference Include="..\Senparc.Scf.Repository\SJTech.Repository.csproj" />
-    <ProjectReference Include="..\Senparc.Scf.SMS\SJTech.SMS.csproj" />
-    <ProjectReference Include="..\Senparc.Scf.Utility\SJTech.Utility.csproj" />
+    <ProjectReference Include="..\SJTech.Log\SJTech.Log.csproj" />
+    <ProjectReference Include="..\SJTech.Office\SJTech.Office.csproj" />
+    <ProjectReference Include="..\SJTech.Tool.Core\SJTech.Tool.Core.csproj" />
+    <ProjectReference Include="..\SJTech.Web.Core\SJTech.Core.csproj" />
+    <ProjectReference Include="..\SJTech.Web.Repository\SJTech.Repository.csproj" />
+    <ProjectReference Include="..\SJTech.Web.SMS\SJTech.SMS.csproj" />
+    <ProjectReference Include="..\SJTech.Web.UI\SJTech.Mvc.UI.csproj" />
+    <ProjectReference Include="..\SJTech.Web.Utility\SJTech.Utility.csproj" />
   </ItemGroup>
 
 </Project>
