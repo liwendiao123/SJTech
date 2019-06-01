@@ -9,6 +9,6 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Senparc.Scf.Core\SJTech.Core.csproj" />
+    <ProjectReference Include="..\SJTech.Web.Core\SJTech.Core.csproj" />
   </ItemGroup>
 </Project>

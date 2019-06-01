@@ -11,6 +11,6 @@
     <PackageReference Include="Senparc.Weixin" Version="6.3.8.2" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Senparc.Scf.Log\SJTech.Log.csproj" />
+    <ProjectReference Include="..\SJTech.Log\SJTech.Log.csproj" />
   </ItemGroup>
 </Project>

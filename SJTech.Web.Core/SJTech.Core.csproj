@@ -21,7 +21,7 @@
     <PackageReference Include="Senparc.Weixin.MP" Version="16.6.11" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Senparc.Scf.Log\SJTech.Log.csproj" />
-    <ProjectReference Include="..\Senparc.Scf.Utility\SJTech.Utility.csproj" />
+    <ProjectReference Include="..\SJTech.Log\SJTech.Log.csproj" />
+    <ProjectReference Include="..\SJTech.Web.Utility\SJTech.Utility.csproj" />
   </ItemGroup>
 </Project>

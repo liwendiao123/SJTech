@@ -37,6 +37,9 @@ namespace SJTech.Service
 
         public async Task<AdminUserInfo> GetUserInfo(string userName)
         {
+
+            await Task.Delay(10);
+          //  await GetObjectListAsync(1,10)
             return GetObject(z => z.UserName.Equals(userName.Trim(), StringComparison.CurrentCultureIgnoreCase));
         }
 

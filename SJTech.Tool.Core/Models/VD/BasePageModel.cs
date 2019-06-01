@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Senparc.Core.Models.VD
+namespace SJTech.Core.Models.VD
 {
     public interface IBasePageModel : IPageModelBase
     { }
