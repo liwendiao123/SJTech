@@ -4,15 +4,4 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\senparc\scfdemo\src\Senparc.Core\SJTech.Tool.Core.csproj" />
-    <ProjectReference Include="..\..\..\senparc\scfdemo\src\Senparc.Scf.Core\SJTech.Core.csproj" />
-    <ProjectReference Include="..\..\..\senparc\scfdemo\src\Senparc.Scf.Log\SJTech.Log.csproj" />
-    <ProjectReference Include="..\..\..\senparc\scfdemo\src\Senparc.Scf.Mvc.UI\SJTech.Mvc.UI.csproj" />
-    <ProjectReference Include="..\..\..\senparc\scfdemo\src\Senparc.Scf.Repository\SJTech.Repository.csproj" />
-    <ProjectReference Include="..\..\..\senparc\scfdemo\src\Senparc.Scf.Service\SJTech.Service.csproj" />
-    <ProjectReference Include="..\..\..\senparc\scfdemo\src\Senparc.Scf.SMS\SJTech.SMS.csproj" />
-    <ProjectReference Include="..\..\..\senparc\scfdemo\src\Senparc.Scf.Utility\SJTech.Utility.csproj" />
-  </ItemGroup>
-
 </Project>
