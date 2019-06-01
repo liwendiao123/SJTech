@@ -27,6 +27,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SJTech.Utility", "SJTech.We
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SJTech.Service", "SJTech.Web.Service\SJTech.Service.csproj", "{377F51A6-8084-462B-A5F2-AD35D9152C76}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SJTech.Tool.Core", "SJTech.Tool.Core\SJTech.Tool.Core.csproj", "{910F86A4-46DA-4E52-903E-BFA3DB371768}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SJTech.Areas.Admin", "SJTech.Areas.Admin\SJTech.Areas.Admin.csproj", "{B0F9921F-E950-43D0-9390-E6F3040D7C87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +81,14 @@ Global
 		{377F51A6-8084-462B-A5F2-AD35D9152C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{377F51A6-8084-462B-A5F2-AD35D9152C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{377F51A6-8084-462B-A5F2-AD35D9152C76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{910F86A4-46DA-4E52-903E-BFA3DB371768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{910F86A4-46DA-4E52-903E-BFA3DB371768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{910F86A4-46DA-4E52-903E-BFA3DB371768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{910F86A4-46DA-4E52-903E-BFA3DB371768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0F9921F-E950-43D0-9390-E6F3040D7C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0F9921F-E950-43D0-9390-E6F3040D7C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0F9921F-E950-43D0-9390-E6F3040D7C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0F9921F-E950-43D0-9390-E6F3040D7C87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

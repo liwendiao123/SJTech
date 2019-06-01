@@ -5,10 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SJTech.Log\SJTech.Log.csproj" />
     <ProjectReference Include="..\SJTech.Office\SJTech.Office.csproj" />
     <ProjectReference Include="..\SJTech.Tool.Core\SJTech.Tool.Core.csproj" />
     <ProjectReference Include="..\SJTech.Web.Core\SJTech.Core.csproj" />
+    <ProjectReference Include="..\SJTech.Web.Log\SJTech.Log.csproj" />
     <ProjectReference Include="..\SJTech.Web.Repository\SJTech.Repository.csproj" />
     <ProjectReference Include="..\SJTech.Web.SMS\SJTech.SMS.csproj" />
     <ProjectReference Include="..\SJTech.Web.UI\SJTech.Mvc.UI.csproj" />

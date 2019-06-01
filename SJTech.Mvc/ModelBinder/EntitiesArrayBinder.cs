@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
-using Senparc.Core.Utility;
+using SJTech.Core.Utility;
 using System;
 using System.Collections.Generic;
 using System.Text;

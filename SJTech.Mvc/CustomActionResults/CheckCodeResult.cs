@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Drawing;
-using Senparc.Core.Utility;
+//using Senparc.Core.Utility;
 using Microsoft.AspNetCore.Mvc;
 using SJTech.Core.Utility;
 

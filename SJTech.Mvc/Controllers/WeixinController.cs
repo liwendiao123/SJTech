@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Options;
 using Senparc.CO2NET.HttpUtility;
 using Senparc.CO2NET.Trace;
-using Senparc.Core.Utility;
+//using Senparc.Core.Utility;
 
 using Senparc.Weixin.Entities;
 using Senparc.Weixin.MP;
